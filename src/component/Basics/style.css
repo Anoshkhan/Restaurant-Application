@@ -24,11 +24,12 @@
     color: #aaa;
   }
   
-  .main-card--cointainer {
+  .main-card--container {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 500px));
     grid-gap: 50px;
     justify-content: space-around;
+    margin: 10px 20px;
   }
   
   .card-container {
@@ -212,4 +213,20 @@
   .btn-group__item--active:after {
     opacity: 1;
     transform: translatey(-2px);
+  }
+  img{
+    width: 400px;
+    height: 350px;
+  }
+  .card-tag{
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+  }
+  .card-tag:hover {
+    background-color: #aaa;
+    color: black;
   }
